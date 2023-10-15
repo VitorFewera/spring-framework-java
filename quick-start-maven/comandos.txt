@@ -1,0 +1,15 @@
+--Comandos para se usar com o Mavem--
+
+mvn archetype:generate -DgroupId=one.digitalinnovation -DartifactId=quick-start-maven
+-DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+Criar um novo projeto
+
+mvn compile = Usado para compilar todo o projeto
+
+mvn test = para testar a aplicação
+
+mvn packege = usado para criar um .jar da aplicação, mesmo sentido do deploy
+
+mvn clean = apaga a pasta target, que é a pasta que fica o diretorio do trabalho em si
+
+
