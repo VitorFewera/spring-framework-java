@@ -5,9 +5,14 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
+
+//Com essa anotação configuro a classe para ser uma configuration
 @Configuration
+//Aqui eu faço que essa classe herde caracteristicas de rementente, que esta em application.properties
 @ConfigurationProperties(prefix = "remetente")
 public class Rementente {
+    //Aqui eu passo a classe remetente
+
     private String nome;
     private String email;
     private List<Long> telefones;

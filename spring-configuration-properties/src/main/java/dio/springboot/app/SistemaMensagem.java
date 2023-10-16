@@ -9,7 +9,8 @@ import java.util.List;
 
 @Component
 public class SistemaMensagem implements CommandLineRunner {
-	@Autowired
+	//usado quando o atributo estiver associado a um contexto
+	@Autowired // -- Para nao dar o new, com essa anotação a informações vem do application.properties
 	private Rementente rementente;
 	@Override
 	public void run(String... args) throws Exception {
